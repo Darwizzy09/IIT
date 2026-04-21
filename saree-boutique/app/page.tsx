@@ -42,8 +42,8 @@ const SareeStore = () => {
   const featuredProducts = [
     { id: 1, name: "Cotton Silk", price: 799, rating: 4.9, image: "/images/Cotton Silk.jpeg" },
     { id: 2, name: "Gadhwal cotton silk", price: 599, rating: 5.0, image: "/images/Gadhwal cotton silk.jpeg" },
-    { id: 3, name: "Jasvand Paithani", price: 18200, rating: 4.8, image: "/images/saree3.jpg" },
-    { id: 4, name: "Lotus Paithani", price: 9999, rating: 4.7, image: "/images/Lotus Paithani.jpeg" }
+    { id: 3, name: "Jasvand Paithani", price: 899, rating: 4.8, image: "/images/saree3.jpg" },
+    { id: 4, name: "Lotus Paithani", price: 999, rating: 4.7, image: "/images/Lotus Paithani.jpeg" }
   ];
 
   const featuredProductsFiltered = featuredProducts.filter(product =>
